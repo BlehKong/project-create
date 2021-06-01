@@ -51,7 +51,7 @@ def main():
     """
     
     # Check if they provide arguemnts
-    if(len(sys.argv) != 2):
+    if(len(sys.argv) < 2):
         print("Please specify the directory name.")
         return
     
