@@ -39,7 +39,7 @@ def create_files(dir_name):
         print("Created: README.md")
     
     # Files to stage 
-    repo.index.add(['.gitignore', 'README.md'])
+    repo.index.add(['.gitignore', 'README.md', 'resources', 'test', 'src'])
     print("Staged files: " + ".gitignore, README.md")
     
     # Initial commit 
